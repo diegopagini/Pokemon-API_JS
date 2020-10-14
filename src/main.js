@@ -23,3 +23,20 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 });
+
+
+// Api
+const API = 'https://pokeapi.co/api/v2/';
+
+const getData = async (id) => {
+  const apiURL = id ? `${API}${id}` : API;
+  console.log(API)
+  try {
+    const response = await fetch(apiURL);
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.log("Fetch Error", error);
+  };
+};
+getData();
