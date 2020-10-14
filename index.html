@@ -3,11 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css/">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon.png">
+  <title>Pokemon Master</title>
 </head>
 <body>
-  
+  <header>
+    <nav class="nav">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img src="assets/logo.png" alt="Logo" class="logo"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/index.html">Inicio</a></li>
+          <li><a href="#">Pokédex</a></li>
+          <li><a href="#">Batalla</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="#">Pokédex</a></li>
+      <li><a href="#">Batalla</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="assets/slide1.jpg" alt="slide"></div>
+        <div class="swiper-slide"><img src="assets/slide2.jpg" alt="slide"></div>
+        <div class="swiper-slide"><img src="assets/slide3.jpg" alt="slide"></div>
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="src/main.js"></script>
 </body>
 </html>

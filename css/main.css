@@ -1,0 +1,38 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  max-width: 1240px;
+}
+.nav-wrapper {
+  background: #ffcc01;
+}
+.logo {
+  width: 100px;
+}
+.hide-on-med-and-down li {
+  font-weight: 900;
+}
+.sidenav {
+  background-color: #ffcc01;
+
+}
+.sidenav li a {
+  color: white;
+  font-weight: 800;
+}
+
+
+.swiper-container {
+  max-width: 1240px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-container img {
+  width: 100%;
+}
