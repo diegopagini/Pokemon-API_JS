@@ -1,4 +1,3 @@
-
 header {
   display: flex;
   justify-content: center;
@@ -6,33 +5,75 @@ header {
 }
 .nav {
   max-width: 1240px;
+  height: 100px;
 }
 .nav-wrapper {
-  background: #ffcc01;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ffcc01, red);
 }
+
+.brand-logo {
+  top: 0;
+}
+
 .logo {
-  width: 100px;
+  width: 150px;
 }
+
 .hide-on-med-and-down li {
   font-weight: 900;
 }
 .sidenav {
-  background-color: #ffcc01;
-
+  background: linear-gradient(to bottom, #ffcc01, red);
 }
 .sidenav li a {
+  margin-top: 25px;
   color: white;
+  font-size: 24px;
   font-weight: 800;
 }
 
-
 .swiper-container {
   max-width: 1240px;
-  height: 500px;
+  max-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .swiper-container img {
   width: 100%;
+}
+
+.row .col {
+  min-height: 340px;
+}
+
+.card .card-title {
+  font-size: 20px;
+}
+
+.btn-large {
+  background: #ffcc01;
+}
+
+.main {
+  margin-top: 35px;
+  max-width: 1180px;
+
+}
+
+footer {
+  max-width: 1240px;
+  height: 80px;
+  background: linear-gradient(to right, #ffcc01, red);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: white;
 }
